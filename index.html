@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Happy Sweet 16!</title>
+    <!-- Hubungkan file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Canvas untuk confetti (opsional) -->
+</head>
+<body>
+    <!-- Balon-balon latar (dibuat via JS nanti) -->
+    <div id="balloon-container"></div>
+
+    <div class="card" id="birthdayCard">
+        <h1>✨ Happy Sweet 16 ✨</h1>
+        <div class="age-badge">16th Birthday!</div>
+        <div class="message">
+            🎂 Selamat ulang tahun ke-16! 🎂<br>
+            Semoga doamu di tahun ini terkabulkan ya
+            adeekuu 🤍
+        </div>
+
+        <!-- Area kue dengan lilin -->
+        <div class="cake-area">
+            <div class="cake" id="cake">
+                <div class="cake-base"></div>
+                <div class="cake-middle"></div>
+                <div class="cake-top"></div>
+                <div class="candle" id="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+        </div>
+
+        <p class="instruction">✨ Klik lilinnya atau tekan tombol dibawah ✨<br>⬇️⬇️⬇️</p>
+        <button id="blowBtn" class="btn-blow">🤍🤍🤍</button>
+        <p class="footer-text">🎈 16 tahun, semoga panjang umur adeee🤍 🎈</p>
+    </div>
+
+    <!-- Script eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
